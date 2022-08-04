@@ -5,7 +5,7 @@
 ##  What does it do? <br />
 
 1. This custom-echo will give you a reverse shell on a custom port that you set as PORT in the c code.
-2. How is works is, whenever somebody runs an echo command on the machine in which you planted your custom-echo, it will send you a reverse shell! :shipit:<br />
+2. How it works is, whenever somebody runs an echo command on the machine in which you planted your custom-echo, it will send you a reverse shell! :shipit:<br />
 3. This can be used in multiple ways, but in this case, we are using a reverse shell c code embedded in the raw echo.c code, that you can obtain via GitHub. (Linux, open-source! Yay.)
 
 ---------------
